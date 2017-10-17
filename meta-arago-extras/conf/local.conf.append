@@ -1,0 +1,5 @@
+BBMASK_append = " meta-arago/meta-arago-distro/recipes-browser/chromium/ "
+BBMASK_append = " meta-arago/meta-arago-distro/recipes-devtools/gdb/ "
+BBMASK_append = " meta-arago/meta-arago-distro/recipes-security/optee/ "
+BBMASK_append = " meta-arago/meta-arago-extras/recipes-connectivity/wpa-supplicant/ "
+IMAGE_INSTALL_append = "  img-pvr-sdk "
